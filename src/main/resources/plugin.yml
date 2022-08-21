@@ -1,0 +1,16 @@
+name: Snake
+version: '${project.version}'
+main: me.viseper.snake.Snake
+api-version: 1.19
+authors: [ Viseper ]
+description: A minigame where you have to escape a snake. Inspired by Fundy's snake video
+commands:
+  snakepos1:
+    description: Sets the first position of the arena
+    usage: /snakepos1
+  snakepos2:
+    description: Sets the second position of the arena
+    usage: /snakepos2
+  arena:
+    description: Creates the arena
+    usage: /arena
